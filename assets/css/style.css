@@ -115,9 +115,15 @@ footer {
 	margin: 0 auto;
 }
 /* IMAGE STYLING */
+.logos {
+	display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
 .logo {
 	height: 60px;
 	width: 60px;
+	display: inline-block;
 }
 
 .mid {
@@ -142,6 +148,33 @@ footer {
 .random {
 	width: 265px;
 	height: 265px;
+}
+
+/* FORM STYLES */
+
+form {
+	color: #777777;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: .5em 0 .5em .5em;
+	color: #777777;
+	border: 1px solid #dddddd;;
+	margin: 10px 0;
+}
+
+input[name=message] {
+	padding-bottom: 150px;
+}
+
+input[type=submit] {
+	width: 15%;
+	background: #4aaaa5;
+	color: #ffffff;
+	border: 0;
+	height: 30px;
+	margin-top: 10px;
 
 }
 /* PSEUDO CLASSES */
